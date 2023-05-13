@@ -1,13 +1,10 @@
-import css from './App.module.css';
+import { Container } from './App.styled';
 
 function App() {
   return (
-    <>
-      <header className={css.block}>
-        <p className={css.textMain}>REACT APP TEMPLATE</p>
-        <p className={css.textSecondary}>USE IT</p>
-      </header>
-    </>
+    <Container>
+      <p>REACT APP TEMPLATE</p>
+    </Container>
   );
 }
 
